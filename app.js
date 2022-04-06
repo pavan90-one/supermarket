@@ -5,9 +5,7 @@ app.use(body_parser.json());
 app.get("/",(req,resp,next)=>{
     resp.send("welcome  to node js deployment ")
 })
-
-
-const PORT = 5000;
+const PORT = process.env.PORT
 app.listen(PORT,()=>{
     console.log(`running `)
 })
