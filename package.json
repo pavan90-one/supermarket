@@ -1,0 +1,27 @@
+{
+  "name": "supermarket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavan90-one/supermarket.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavan90-one/supermarket/issues"
+  },
+  "homepage": "https://github.com/pavan90-one/supermarket#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cros": "^1.0.1",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
